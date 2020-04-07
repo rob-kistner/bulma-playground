@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <title>Test Document</title>
+      <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.12.1/css/all.css" integrity="sha384-TxKWSXbsweFt0o2WqfkfJRRNVaPdzXJ/YLqgStggBVRREXkwU7OKz+xXtqOU4u8+" crossorigin="anonymous">
+      <link rel="stylesheet" href="./css/styles.css">
+  </head>
+<body>
+
+<nav class="navbar has-background-info" role="navigation" aria-label="main navigation">
+
+  <div class="navbar-brand">
+    
+    <a class="navbar-item" href="https://bulma.io/documentation" target="_new">
+      <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28">
+    </a>
+
+    <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navMain">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+
+  <div id="navMain" class="navbar-menu">
+    <div class="navbar-start">
+      <a class="navbar-item" href="/">Home</a>
+      <a class="navbar-item" href="/cards.html">Cards</a>
+      <a class="navbar-item" href="/forms.html">Forms</a>
+      <a class="navbar-item" href="/layout.html">Layout</a>
+      <a class="navbar-item" href="/levels.html">Levels</a>
+      <a class="navbar-item" href="/snippets.html">Snippets</a>
+    </div>
+  </div>
+
+</nav>
+
+
+<section class="section has-background-grey">
+  <div class="container">
+    <div class="hero-head has-text-primary">
+      <h3 class="title has-text-grey-lighter">Form Elements</h3>
+      <h6 class="subtitle">All using standard Bulma classes</h6>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+
+    <div class="field">
+      <label class="label">Name</label>
+      <div class="control">
+        <input class="input" type="text" placeholder="e.g Alex Smith">
+      </div>
+    </div>
+      
+    <div class="field">
+      <label class="label">Email with icons and helper message</label>
+      <div class="control has-icons-left has-icons-right">
+        <span class="icon is-left">
+          <i class="fas fa-envelope"></i>
+        </span>
+        <input class="input" type="email" placeholder="Your email address here">
+        <span class="icon is-small is-right">
+          <i class="fas fa-check"></i>
+        </span>
+      </div>
+      <p class="help">Your privacy is protected. We do not share info with vendors or partners.</p>
+    </div>
+
+    <div class="field">
+      <label class="label">Static input, maintains spacing</label>
+      <div class="control">
+        <input class="input is-static" type="email" value="myemail@thebigworld.com">
+      </div>
+    </div>
+      
+    <div class="field">
+      <label class="label">Loading animation input</label>
+      <div class="control is-loading">
+        <input class="input" type="email" placeholder="Loading input">
+      </div>
+    </div>
+      
+    <div class="field">
+      <label class="label">Select dropdown</label>
+      <div class="select">
+        <select>
+          <option value="">Select an option, doing longer text</option>
+          <option value="">Here's an option</option>
+          <option value="">And another option</option>
+        </select>
+      </div>
+    </div>
+      
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+
+    <div class="columns is-centered field">
+      <div class="column is-2 has-pb-none is-vcentered">
+        <label for="input" class="label">First Name</label>
+      </div>
+      <div class="column is-4">
+        <div class="field">
+          <div class="control">
+            <input type="text" name="input" id="input" class="input" placeholder="Text input">
+          </div>
+        </div>
+      </div>
+      <div class="column is-2 is-hidden-mobile"></div>
+    </div>
+    
+    <div class="columns is-centered field">
+      <div class="column is-2 has-pb-none is-vcentered">
+        <label for="input" class="label">Last Name</label>
+      </div>
+      <div class="column is-4">
+        <div class="field">
+          <div class="control">
+            <input type="text" name="input" id="input" class="input" placeholder="Text input">
+          </div>
+        </div>
+      </div>
+      <div class="column is-2 is-hidden-mobile"></div>
+    </div>
+    
+    <div class="columns is-centered field">
+      <div class="column is-2 has-pb-none">
+        <label for="input" class="label">Email</label>
+      </div>
+      <div class="column is-6">
+        <div class="field">
+          <div class="control">
+            <input type="eamil" name="input" id="input" class="input" placeholder="Text input">
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+</body>
+</html>

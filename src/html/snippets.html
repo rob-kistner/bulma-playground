@@ -1,0 +1,28 @@
+{% extends './layouts/layout-main.njk' %}
+
+{% block content -%}
+
+<main class="container content has-pb-lg">
+
+  <!----------------------------------------
+    Select with Icons
+  ------------------------------------------>
+  <div class="field section">
+    <label for="select-with-icons" class="label">Select with icons</label>
+    <div class="control has-icons-left">
+      <div class="select">
+        <select name="select-with-icons" id="select-with-icons">
+          <option value="Item One">Item One</option>
+          <option value="Item Two">Item Two</option>
+          <option value="Item Three">Item Three</option>
+        </select>
+      </div>
+      <div class="icon is-left">
+        <i class="fas fa-globe"></i>
+      </div>
+    </div>
+  </div>
+
+</main> <!-- end main -->
+
+{%- endblock %}
